@@ -3,7 +3,7 @@
 # shell options & variables
 HISTSIZE=10000
 HISTCONTROL=ignoredups
-HISTIGNORE="cd:ls:ll:la"
+HISTIGNORE="cd:ls:ll:la:l"
 shopt -s histappend
 
 if [ -d "$HOME/.bashrc.d" ]; then
