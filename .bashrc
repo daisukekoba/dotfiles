@@ -2,6 +2,7 @@
 
 # shell options & variables
 HISTSIZE=10000
+HISTFILESIZE=10000
 HISTCONTROL=ignoredups
 HISTIGNORE="cd:ls:ll:la:l"
 shopt -s histappend
