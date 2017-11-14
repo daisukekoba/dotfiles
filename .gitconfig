@@ -1,0 +1,7 @@
+[include]
+	path = .gitconfig.local
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	glog = log --graph
