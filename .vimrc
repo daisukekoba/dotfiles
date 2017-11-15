@@ -3,6 +3,7 @@ if 0 | endif
 
 scriptencoding utf-8
 set encoding=utf-8
+set fileencodings=utf-8,cp932
 
 if isdirectory(expand('~/.vim/lightline.vim'))
   set runtimepath+=~/.vim/lightline.vim
