@@ -1,8 +1,8 @@
 "Skip initialization for vim-tiny or vim-small.
 if 0 | endif
 
-set encoding=utf-8
 scriptencoding utf-8
+set encoding=utf-8
 
 if isdirectory(expand('~/.vim/lightline.vim'))
   set runtimepath+=~/.vim/lightline.vim
