@@ -9,3 +9,4 @@ alias rm='rm -v'
 alias df='df -h'
 alias du='du -h'
 
+alias grep='grep --color=auto'
