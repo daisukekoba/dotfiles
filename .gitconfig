@@ -5,3 +5,5 @@
 	ci = commit
 	st = status
 	glog = log --graph
+[log]
+	decorate = short
