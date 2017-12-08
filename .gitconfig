@@ -4,6 +4,7 @@
 	co = checkout
 	ci = commit
 	st = status
+	l = log --oneline
 	glog = log --graph
 [log]
 	decorate = short
