@@ -3,7 +3,7 @@
 [alias]
 	co = checkout
 	ci = commit
-	st = status
+	st = status --short
 	l = log --oneline
 	glog = log --graph
 [log]
