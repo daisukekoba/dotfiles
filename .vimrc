@@ -35,6 +35,10 @@ set ignorecase
 set smartcase
 set hlsearch
 
+if has("autocmd")
+  autocmd FileType gitconfig setlocal noexpandtab
+endif
+
 syntax enable
 filetype plugin indent on
 
