@@ -8,3 +8,5 @@
 	glog = log --graph
 [log]
 	decorate = short
+[push]
+	default = simple
