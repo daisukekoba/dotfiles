@@ -1,5 +1,6 @@
 set number
 set nowrap
+set sidescroll=2
 
 "Skip initialization for vim-tiny or vim-small.
 if 0 | endif
