@@ -1,3 +1,6 @@
+set number
+set nowrap
+
 "Skip initialization for vim-tiny or vim-small.
 if 0 | endif
 
@@ -31,8 +34,6 @@ else
   endif
 endif
 
-set number
-set nowrap
 set list
 set listchars=tab:›\ ,trail:-,extends:»,precedes:«
 set showcmd
