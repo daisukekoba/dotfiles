@@ -5,7 +5,9 @@
 	ci = commit
 	st = status --short --branch
 	l = log --oneline
-	glog = log --graph
+	la = log --oneline --all
+	gl = log --oneline --graph
+	gla = log --oneline --graph --all
 [log]
 	decorate = short
 [push]
