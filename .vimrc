@@ -6,9 +6,9 @@ set sidescrolloff=5
 "Skip initialization for vim-tiny or vim-small.
 if 0 | endif
 
-scriptencoding utf-8
 set encoding=utf-8
 set fileencodings=utf-8,cp932
+scriptencoding utf-8
 
 set list
 set listchars=tab:›\ ,trail:-,extends:»,precedes:«
