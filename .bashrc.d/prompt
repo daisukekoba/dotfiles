@@ -2,4 +2,4 @@ if [ "$(uname)" == 'Darwin' ]; then
     PS1='\u:\w\$ '
 fi
 
-which vcprompt > /dev/null 2>&1 && PS1='\u:\w$(vcprompt -f "[%b]")$ '
+command -v vcprompt > /dev/null 2>&1 && PS1='\u:\w$(vcprompt -f "[%b]")$ '
