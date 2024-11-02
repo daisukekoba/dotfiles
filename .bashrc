@@ -10,7 +10,7 @@ shopt -s histappend
 if [ -f /usr/share/bash-completion/bash_completion ]; then
   source /usr/share/bash-completion/bash_completion
 fi
-which lesspipe > /dev/null 2>&1 && eval $(lesspipe)
+command -v lesspipe > /dev/null 2>&1 && eval $(lesspipe)
 
 if [ -d "$HOME/.bashrc.d" ]; then
   for name in $(ls "$HOME/.bashrc.d/"); do
