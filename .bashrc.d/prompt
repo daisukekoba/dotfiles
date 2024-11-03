@@ -1,4 +1,4 @@
-if [ "$(uname)" == 'Darwin' ]; then
+if [[ "$(uname)" == 'Darwin' ]]; then
     PS1='\u:\w\$ '
 fi
 
