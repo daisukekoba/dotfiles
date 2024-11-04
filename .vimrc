@@ -43,6 +43,8 @@ endfor
 
 if has("autocmd")
   autocmd FileType gitconfig setlocal noexpandtab
+  autocmd FileType sh,zsh setlocal shiftwidth=2 tabstop=2
+  autocmd FileType javascript,typescript setlocal shiftwidth=2 tabstop=2
 endif
 
 syntax enable
