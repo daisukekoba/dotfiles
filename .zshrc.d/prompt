@@ -1,0 +1,8 @@
+if [[ "$(uname)" == 'Darwin' ]]; then
+  PS1='%n:%~$ '
+fi
+
+if command -v vcprompt > /dev/null 2>&1; then
+  setopt prompt_subst
+  PS1='%n:%~$(vcprompt -f "[%b]")$ '
+fi
