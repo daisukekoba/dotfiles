@@ -7,6 +7,9 @@ HISTCONTROL=ignoredups
 HISTIGNORE="cd:ls:ll:la:l"
 shopt -s histappend
 
+export CLICOLOR=1
+export LESS='-R'
+
 if [ -f /usr/share/bash-completion/bash_completion ]; then
   source /usr/share/bash-completion/bash_completion
 fi
