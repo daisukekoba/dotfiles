@@ -28,8 +28,10 @@ set ignorecase
 set smartcase
 set hlsearch
 
-if v:version >= 802 || (v:version == 801 && has('patch'.360))
-  set diffopt=algorithm:histogram
+if has('mac') && $VIM == '/usr/share/vim'
+  "
+elseif v:version >= 802 || (v:version == 801 && has('patch'.360))
+  set diffopt+=algorithm:histogram
 endif
 
 "Plugins are managed by Vim8 packages.
