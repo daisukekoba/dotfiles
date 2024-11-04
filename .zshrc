@@ -3,10 +3,10 @@
 # shell options & variables
 HISTSIZE=10000
 SAVEHIST=10000
-HISTCONTROL=ignoredups
 HISTIGNORE="cd:ls:ll:la:l"
 setopt APPEND_HISTORY
 setopt INC_APPEND_HISTORY
+setopt HIST_IGNORE_DUPS
 
 export CLICOLOR=1
 export LESS='-R'
