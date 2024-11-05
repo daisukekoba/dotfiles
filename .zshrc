@@ -8,6 +8,9 @@ setopt APPEND_HISTORY
 setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
 
+bindkey "^N" history-search-forward
+bindkey "^P" history-search-backward
+
 export CLICOLOR=1
 export LESS='-R'
 
