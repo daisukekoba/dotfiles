@@ -1,9 +1,8 @@
 [ -z "$PS1" ] && return
 
-# shell options & variables
-HISTSIZE=10000
-SAVEHIST=10000
-HISTIGNORE="cd:ls:ll:la:l"
+export HISTSIZE=10000
+export SAVEHIST=10000
+export HISTORY_IGNORE="(cd|ls|ll|la|l)"
 setopt APPEND_HISTORY
 setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
