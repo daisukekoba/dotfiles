@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILES=".gitconfig .inputrc .vim .vimrc .zprofile .zshrc .zshrc.d"
+FILES=".gitconfig .inputrc .vim .vimrc .wezterm.lua .zprofile .zshrc .zshrc.d"
 
 for file in $FILES; do
   if [ -e $HOME/$file ]; then
