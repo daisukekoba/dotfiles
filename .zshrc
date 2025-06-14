@@ -7,6 +7,9 @@ setopt APPEND_HISTORY
 setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
 
+autoload -Uz compinit && compinit
+zstyle ':completion:*:default' menu select=2
+
 bindkey "^N" history-search-forward
 bindkey "^P" history-search-backward
 
